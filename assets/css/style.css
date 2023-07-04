@@ -10,6 +10,11 @@ section {
   padding: 2rem 0;
 }
 
+p{
+    font-size: 13px;
+    color: white;
+} 
+
 /* #endregion Common */
 
 /* #region Debug */
@@ -114,9 +119,20 @@ header {
 .menu {
   width: 60%;
   text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#imglogo{
+    height: 20px;
 }
 .login {
   text-align: end;
+}
+
+.login [button]{
+    border: 1px solid;
+    border-radius: 50px;
 }
 /* #endregion Header */
 
