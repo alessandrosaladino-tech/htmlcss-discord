@@ -1,108 +1,111 @@
 /* #region Common */
 
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-section {
-  padding: 2rem 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p{
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+p {
     font-size: 13px;
     color: white;
-} 
+}
 
 /* #endregion Common */
 
 /* #region Debug */
-.debug .container
-{
-  background-color: rgb(255, 166, 0);
+.debug .container {
+    background-color: rgb(255, 166, 0);
 }
 
-.debug [class^='col-']
-{
-  height: 200px;
-  background-color: palegreen;
-  border: 1px dashed;
+.debug [class^='col-'] {
+    height: 200px;
+    background-color: palegreen;
+    border: 1px dashed;
 }
 
-.debug .h-50
-{
-  height: 500px;
+.debug .h-50 {
+    height: 500px;
 }
 
 .debug .login,
 .debug .logo,
-.debug .menu
-{
-  border: 1px dashed;
+.debug .menu {
+    border: 1px dashed;
 }
 
-.debug .container-sm
-{
-  background-color: palevioletred;
-  height: 100%;
+.debug .container-sm {
+    background-color: palevioletred;
+    height: 100%;
 }
+
 /* #endregion Debug */
 
 /* #region Utilities */
 
 .d-flex {
-  display: flex;
+    display: flex;
 }
 
-.container-sm
-{
-  max-width: 800px;
-  width: 60%;
-  margin: auto;
+.container-sm {
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    height: 90%;
+    
 }
+
 .justify-content-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 /* Flex Grid */
-.container
-{
-  max-width: 1170px;
-  width: 80%;
-  margin: auto;
+.container {
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
 }
+
 .row {
-  display: flex;
-  /* negative margin */
+    display: flex;
+    /* negative margin */
 }
 
-[class^='col-']
-{
-  padding: 0 1rem;
+[class^='col-'] {
+    padding: 0 1rem;
 }
 
-.col-3{
-  width: calc(100% / 12 * 3);
+.col-3 {
+    width: calc(100% / 12 * 3);
 }
-.col-4
-{
-  width: calc(100% / 12 * 4);
+
+.col-4 {
+    width: calc(100% / 12 * 4);
 }
+
 .col-8 {
-  width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8);
 }
 
 
 /* Spacings */
 
 .py-3 {
-  padding: 0.75rem 0;
+    padding: 0.75rem 0;
 }
 
 /* Colors */
 .bg_section {
-  background-color: #ededed;
+    background-color: #ededed;
 }
 
 /* #endregion Utility */
@@ -110,51 +113,95 @@ p{
 /* #region Header */
 
 header {
-  background-color: #3161e0;
-}  
-
-.logo, .login {
-  width: 20%;
+    background-color: #3161e0;
 }
+
+.logo,
+.login {
+    width: 20%;
+}
+
 .menu {
-  width: 60%;
-  text-align: center;
-  justify-content: space-around;
-  align-items: center;
+    width: 60%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .login {
     justify-content: end;
 }
 
-.login button{
-    border: 1px ;
+.login button {
+    border: 1px;
     border-radius: 50px;
     width: 30%;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-.login [button] 
-{
+.login [button] {
     border-radius: 50px;
     border: 0.5px;
     width: 30%;
 }
+
 /* #endregion Header */
 
 /* #region Main */
 
 .jumbotron {
- 
+    height: 550px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
 }
 
-.jumbotron img{
-    height: 100%;
-    width: 100%;
+h1, p{
+    text-align: center;
+}
+
+.container-sm h1 {
+    font-size: 65px;
+    color: white;
+    padding-top: 6.5rem;
+}
+
+.container-sm p{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    height: 27%;
+    width: 60%;
+    padding-top: 3rem ;
+}
+
+#button_1{
+    background-color: white;
+
+}
+
+#button_2 {
+    background-color: #23272a;
+    color: white;
+}
+
+
+
+.container-b {
+    justify-content: center;
+}
+
+.container-b button{
+    margin-left: 0.75rem;
+    border-radius: 50px;
+    border: 0.5px;
+    font-size: 20px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1%;
 }
 
 
@@ -164,10 +211,12 @@ a{
 
 /* #region Footer */
 footer {
-  background-color: darkblue;
+    background-color: darkblue;
 }
-footer > .top, footer > .bottom {
-  padding: 1rem 0;
+
+footer>.top,
+footer>.bottom {
+    padding: 1rem 0;
 }
 
 /* #endregion Footer */
