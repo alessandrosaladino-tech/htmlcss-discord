@@ -134,6 +134,12 @@ header {
     border: 1px solid;
     border-radius: 50px;
 }
+
+a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
 /* #endregion Header */
 
 /* #region Main */
