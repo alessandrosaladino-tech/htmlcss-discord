@@ -149,9 +149,12 @@ a{
 /* #region Main */
 
 .jumbotron {
-  background-color: paleturquoise;
-  height: 450px; /* we might need to keep this */
-  padding: 2rem 0;
+ 
+}
+
+.jumbotron img{
+    height: 100%;
+    width: 100%;
 }
 
 
