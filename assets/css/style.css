@@ -90,6 +90,7 @@ p {
 
 .col-4 {
     width: calc(100% / 12 * 4);
+    padding-top: 1.8rem;
 }
 
 .col-8 {
@@ -220,3 +221,21 @@ footer>.bottom {
 }
 
 /* #endregion Footer */
+
+.card {
+    height: 100%;
+}
+
+.card p {
+    color: black;
+    margin-top: 2rem;
+}
+
+h2{
+    font-size: 51px;
+}
+
+p{
+    font-size: 23px;
+    text-align: start;
+}
