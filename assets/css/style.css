@@ -123,6 +123,7 @@ header {
 .logo,
 .login {
     width: 20%;
+    display: flex;
 }
 
 .menu {
@@ -300,4 +301,12 @@ h6{
     color: white;
     width: 35%;
     height: 80%;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color:#8ea1e1;
+    width: 46%;
+    margin: auto;
 }
