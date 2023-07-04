@@ -258,3 +258,22 @@ p{
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.avventura{
+    background-image: url(../img/stars.svg);
+    font-size: 35px;
+    text-align: center;
+}
+
+#fn_button{
+    width: 20%;
+    background-color:#8ea1e1 ;
+    border: 0.2px ;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+    color: white;
+}
