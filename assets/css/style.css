@@ -123,22 +123,26 @@ header {
   align-items: center;
 }
 
-#imglogo{
-    height: 20px;
-}
 .login {
-  text-align: end;
+    justify-content: end;
 }
 
-.login [button]{
-    border: 1px solid;
+.login button{
+    border: 1px ;
     border-radius: 50px;
+    width: 30%;
 }
 
 a{
     color: white;
-    font-size: 13px;
     text-decoration: none;
+}
+
+.login [button] 
+{
+    border-radius: 50px;
+    border: 0.5px;
+    width: 30%;
 }
 /* #endregion Header */
 
